@@ -10,7 +10,7 @@ def verify_human_greetings(i_h_message: str):
     """
 
     greetings_pattern = re.compile(
-        r'^(oi+a*|olá?|bom\s+dia|boa\s+tarde|boa\s+noite|hey+|hello|hi|opa|tudo\s+b+e+m\??)\b',
+        r'^(oi+a*|ola?|bom\s+dia|boa\s+tarde|boa\s+noite|hey+|hello|hi|opa|tudo\s+b+e+m\??)\b',
         re.IGNORECASE,
     )
 

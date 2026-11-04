@@ -6,7 +6,7 @@ from chat_agent_music_emporium.graph.utils.state import GraphState
 
 def verify_human_input_conditional(state: GraphState):
     """
-    Verifica se é uma saudação, se for retornar mensagem inicial de boas vindas.
+    Verifica se é uma saudação, se for retorna mensagem inicial de boas vindas.
     """
     if state.messages and state.messages[-1]:
         message = state.messages[-1].content
